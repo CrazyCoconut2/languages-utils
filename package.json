@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A utility package for language-related enums and types",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -26,5 +27,6 @@
   },
   "peerDependencies": {
     "typescript": ">=4.9.0"
-  }
+  },
+  "sideEffects": false
 }
