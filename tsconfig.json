@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "composite": true,               // Allows referencing if used in monorepos
-    "declaration": true,             // Emit .d.ts files (safe default)
-    "emitDeclarationOnly": true,     // Don’t emit JS files
-    "strict": true,                  // Type safety
-    "skipLibCheck": true,            // Faster builds
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",                  // Needed if using path aliases
-    "outDir": "dist",                // Not used unless compiling
-    "module": "ESNext",              // Default module system
-    "target": "ESNext"               // Modern TS
+    "baseUrl": ".",
+    "outDir": "./dist/types",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
-  "include": ["index.d.ts"],
+  "include": ["index.ts"],
   "exclude": ["node_modules"]
 }
