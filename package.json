@@ -1,6 +1,7 @@
 {
   "name": "languages-utils",
   "version": "1.0.0",
+  "description": "A utility package for language-related enums and types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -8,10 +9,22 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean"
   },
+  "keywords": [
+    "languages",
+    "types",
+    "enums",
+    "utilities"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.9.0"
   },
-  "license": "MIT"
+  "peerDependencies": {
+    "typescript": ">=4.9.0"
+  }
 }
