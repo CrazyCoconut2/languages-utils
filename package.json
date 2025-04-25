@@ -1,9 +1,8 @@
 {
     "name": "languages-utils",
     "version": "1.0.0",
-    "main": "index.d.ts",
-    "types": "index.d.ts",
-    "files": ["index.d.ts"],
+    "main": "index.ts",
+    "files": ["index.ts"],
     "license": "MIT"
   }
   
